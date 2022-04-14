@@ -36,4 +36,4 @@
 
 ****
 
-![Main](https://giphy.com/gifs/programmer-dilemma-12BYUePgtn7sis)
+![Main](https://media0.giphy.com/media/12BYUePgtn7sis/giphy.gif?cid=ecf05e47l1k6xqfmp01vxxy791jtuvgjkdwmttqdgqrefffd&rid=giphy.gif&ct=g)
