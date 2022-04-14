@@ -36,4 +36,4 @@
 
 ****
 
-![Main](https://media.giphy.com/media/wKoPDy4mp8Lr6IJ9ce/giphy.gif)
+![Main](https://www.reddit.com/r/gifs/comments/5e0ci4/project_manager_vs_programmer/)
