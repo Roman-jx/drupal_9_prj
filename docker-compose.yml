@@ -1,0 +1,50 @@
+services:
+  php:
+    build: .
+    working_dir: '/var/www'
+    volumes:
+      - './:/var/www:cached'
+    env_file:
+      - ./.env
+    environment:
+      - PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/var/www/vendor/bin
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.php.rule=Host(`${PROJECT_BASE_URL}`)"
+      - "traefik.http.services.php.loadbalancer.server.port=80"
+
+  database:
+    image: mariadb
+    environment:
+      - MARIADB_ROOT_PASSWORD=admin
+      - MARIADB_DATABASE=${MYSQL_DB_NAME}
+      - MARIADB_USER=${MYSQL_USER}
+      - MARIADB_PASSWORD=${MYSQL_PASS}
+
+  phpmyadmin:
+    image: phpmyadmin
+    restart: always
+    environment:
+      - PMA_ARBITRARY=1
+      - MYSQL_USER=${MYSQL_USER}
+      - MYSQL_PASSWORD=${MYSQL_PASS}
+    labels:
+      - "traefik.http.routers.phpmyadmin.rule=Host(`phpmyadmin.${PROJECT_BASE_URL}`)"
+      - "traefik.http.services.phpmyadmin.loadbalancer.server.port=80"
+
+  traefik:
+    image: "traefik:v2.6"
+    command: --api.insecure=true --providers.docker
+    ports:
+      - "80:80"
+      - "8080:8080"
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock:ro"
+
+
+
+
+
+
+
+
