@@ -17,10 +17,10 @@
 ## Setup
 
 >BASH
-```
-cp .env.dist .env
-docker-compose up -d
-docker-compose exec php composer install
+```diff
++ cp .env.dist .env
++ docker-compose up -d
++ docker-compose exec php composer install
 ```
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
