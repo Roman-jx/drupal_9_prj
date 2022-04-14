@@ -35,5 +35,5 @@
 ```Database settings are stored in `web/sites/default/settings.php` but it uses env variables so no need to override, just change the `.env` file instead.```
 
 ****
-#href="https://giphy.com/gifs/vs-project-manager-c4u2gld3Or69i"
+
 ![Main](https://giphy.com/embed/c4u2gld3Or69i)
