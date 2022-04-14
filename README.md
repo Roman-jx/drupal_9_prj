@@ -19,7 +19,7 @@
 
 ```Drupal provides an open-source back-end framework for at least 14% of the top 10,000 websites worldwide – ranging from personal blogs to corporate, political, and government sites. Systems also use Drupal for knowledge management and for business collaboration.```
 
-```diff @@ **** @@ ```
+****
 
 ## Setup
 
