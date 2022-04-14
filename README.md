@@ -9,9 +9,9 @@
 ## Setup
 
 ```bash
-#c5f015 cp .env.dist .env
-#c5f015 docker-compose up -d
-#c5f015 docker-compose exec php composer install
+<span style="color: green"> Some green text </span> cp .env.dist .env
+<span style="color: green"> Some green text </span> docker-compose up -d
+<span style="color: green"> Some green text </span> docker-compose exec php composer install
 ```
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
