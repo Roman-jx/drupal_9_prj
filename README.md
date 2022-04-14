@@ -1,9 +1,9 @@
-![GitHub all releases](https://img.shields.io/github/downloads/{username}/{repo-name}/total)
-![GitHub language count](https://img.shields.io/github/languages/count/{username}/{repo-name}) 
-![GitHub top language](https://img.shields.io/github/languages/top/{username}/{repo-name}?color=yellow) 
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/{username}/{repo-name})
-![GitHub forks](https://img.shields.io/github/forks/{username}/{repo-name}?style=social)
-![GitHub Repo stars](https://img.shields.io/github/stars/{username}/{repo-name}?style=social)
+![GitHub all releases](https://img.shields.io/github/downloads/{Roman-jx}/{drupal_9_prj}/total)
+![GitHub language count](https://img.shields.io/github/languages/count/{Roman-jx}/{drupal_9_prj}) 
+![GitHub top language](https://img.shields.io/github/languages/top/{Roman-jx}/{drupal_9_prj}?color=yellow) 
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/{Roman-jx}/{drupal_9_prj})
+![GitHub forks](https://img.shields.io/github/forks/{Roman-jx}/{drupal_9_prj}?style=social)
+![GitHub Repo stars](https://img.shields.io/github/stars/{Roman-jx}/{drupal_9_prj}?style=social)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![BH_Drupal9-01](https://user-images.githubusercontent.com/73672879/162577161-740fe7d5-a94e-4f37-b299-a164b34e5224.jpeg)
