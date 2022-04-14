@@ -1,7 +1,7 @@
 ![GitHub all releases](https://img.shields.io/github/downloads/Roman-jx/drupal_9_prj/total)
 ![GitHub language count](https://img.shields.io/github/languages/count/Roman-jx/drupal_9_prj) 
 ![GitHub top language](https://img.shields.io/github/languages/top/Roman-jx/drupal_9_prj?color=yellow) 
-![GitHub language](https://img.shields.io/github/languages/top/Roman-jx/drupal_9_prj?color=yellow) 
+![GitHub tail language](https://img.shields.io/github/languages/top/Roman-jx/drupal_9_prj?color=yellow) 
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/Roman-jx/drupal_9_prj)
 ![GitHub forks](https://img.shields.io/github/forks/Roman-jx/drupal_9_prj?style=social)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Roman-jx/drupal_9_prj?style=social)
