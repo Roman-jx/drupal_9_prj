@@ -21,11 +21,11 @@
 ## Setup
 
 >BASH
-```diff @@
-cp .env.dist .env 
-docker-compose up -d
-docker-compose exec php composer install
-@@```
+
+@@ cp .env.dist .env @@
+@@ docker-compose up -d @@
+@@ docker-compose exec php composer install @@
+
 ****
 
 Open http://drupal.localhost/install.php and install the website.
