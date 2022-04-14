@@ -10,9 +10,9 @@
 ## Setup
 
 ```bash
-cp .env.dist .env
-docker-compose up -d
-docker-compose exec php composer install
+>cp .env.dist .env
+>docker-compose up -d
+>docker-compose exec php composer install
 ```
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
