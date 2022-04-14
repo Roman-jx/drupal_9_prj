@@ -1,3 +1,6 @@
+![GitHub all releases](https://img.shields.io/github/downloads/{username}/{repo-name}/total)
+![GitHub language count]
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![BH_Drupal9-01](https://user-images.githubusercontent.com/73672879/162577161-740fe7d5-a94e-4f37-b299-a164b34e5224.jpeg)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -22,5 +25,4 @@ Open http://drupal.localhost/install.php and install the website.
 **_NOTE_**:
 Database settings are stored in `web/sites/default/settings.php` but it uses env variables so no need to override, just change the `.env` file instead.
 
-🏴‍☠️
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
