@@ -36,4 +36,4 @@
 
 ****
 
-![Main](https://giphy.com/gifs/vs-project-manager-c4u2gld3Or69i)
+![Main](https://giphy.com/gifs/programmer-dilemma-12BYUePgtn7sis)
