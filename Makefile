@@ -13,4 +13,4 @@ install: up
 	@mkdir -p "drush"
 	@echo "options:\n  uri: 'http://$(PROJECT_BASE_URL)'" > drush/drush.yml
 cli:
-	docker-compose exec php bash
+	docker-compose exec php /bin/bash
