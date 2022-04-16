@@ -774,6 +774,7 @@ $databases['default']['default'] = array (
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
 );
+$settings['skip_permissions_hardening'] = TRUE;
 $settings['hash_salt'] = getenv('HASH_SALT');
 $settings['config_sync_directory'] = '../config';
 $settings['trusted_host_patterns'][] = getenv('PROJECT_BASE_URL');
@@ -781,14 +782,14 @@ $settings['trusted_host_patterns'][] = getenv('PROJECT_BASE_URL');
 if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
   include $app_root . '/' . $site_path . '/settings.local.php';
 }
-$databases['default']['default'] = array (
-  'database' => 'test', # test
-  'username' => 'user', # user
-  'password' => 'user', # 123
-  'prefix' => '',
-  'host' => 'database',
-  'port' => '3306',
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-  'driver' => 'mysql',
-);
-$settings['hash_salt'] = 'V6jZxnZ3dtSwj_awpAnWoxSm4tVip2Qq9ppaPWCbuLc2jeTycaK5NQncUPDQi7VLlmQ8qi7v-w';
+// $databases['default']['default'] = array (
+//   'database' => 'test',
+//   'username' => 'user',
+//   'password' => 'user',
+//   'prefix' => '',
+//   'host' => 'database',
+//   'port' => '',
+//   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+//   'driver' => 'mysql',
+// );
+$settings['hash_salt'] = 'WFWKjjvM7LFcAL95DNW49lPK_7E1-BBcRwiCHrKmP9-1LKt8WClHdR6MEh6ZG_WLWJ4IBUHPiQ';
