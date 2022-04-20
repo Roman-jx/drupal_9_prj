@@ -1,0 +1,27 @@
+# name: name: docker-compose-actions-workflow
+
+name: drupal_project
+
+# on: push
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: rename file              #Prepare config
+        run: cp .env.dist .env
+      - name: build our docker-compose image      #Build
+        run: make up
+      - name: Pre-Install
+        run: docker-compose exec -T --user=root php bash -c 'chown -R www-data:www-data /var/www'
+      - name: Install
+        run: make install
+      - name: test on web
+        run: make test
