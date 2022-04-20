@@ -1,4 +1,4 @@
-[![Build Status](https://github.com/Roman-jx/drupal_9_prj/actions/runs/2195960712/badge.svg?branch=master)](https://github.com/Roman-jx/drupal_9_prj/actions/runs/2195960712)
+[![Build Status](https://github.com/Roman-jx/drupal_9_prj/actions/workflows/drupal.yml/badge.svg?branch=master)](https://github.com/Roman-jx/drupal_9_prj/actions/workflows/drupal.yml)
 ![GitHub all releases](https://img.shields.io/github/downloads/Roman-jx/drupal_9_prj/total?style=centerme)
 ![GitHub language count](https://img.shields.io/github/languages/count/Roman-jx/drupal_9_prj?style=centerme) 
 ![GitHub top language](https://img.shields.io/github/languages/top/Roman-jx/drupal_9_prj?color=yellow&style=centerme) 
