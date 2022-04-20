@@ -1,2 +1,2 @@
 options:
-  uri: 'http://drupal.localhost'
+  uri: http://drupal.localhost
