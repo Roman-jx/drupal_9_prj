@@ -9,8 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: rename file              #Prepare config
-        run: cp .env.dist .env
+      # - name: rename file              #Prepare config
+      #   run: cp .env.dist .env
       - name: build our docker-compose image      #Build
         run: make up
       - name: Pre-Install
