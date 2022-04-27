@@ -1,0 +1,16 @@
+uuid: 098be22c-7b46-44d0-b55f-50012ebdd418
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+    - taxonomy.vocabulary.programming_languages
+id: user
+label: User
+vocabulary: programming_languages
+menu: account
+expanded: false
+depth: 0
+menu_parent: 'admin:'
+description_field_name: null
+use_term_weight_order: true

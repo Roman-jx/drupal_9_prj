@@ -1,0 +1,25 @@
+uuid: fb46cb70-1479-471c-b99d-2d4a0af2d82c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:6b715596-30c3-4649-bf37-0476adf394a7'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: john
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:6b715596-30c3-4649-bf37-0476adf394a7'
+settings:
+  id: 'block_content:6b715596-30c3-4649-bf37-0476adf394a7'
+  label: John
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

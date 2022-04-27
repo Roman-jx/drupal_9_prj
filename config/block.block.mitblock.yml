@@ -1,0 +1,25 @@
+uuid: 6689b829-1487-4428-a5ce-012872700ecd
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4ae528cf-472e-43d7-a672-306c260d53e8'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: mitblock
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:4ae528cf-472e-43d7-a672-306c260d53e8'
+settings:
+  id: 'block_content:4ae528cf-472e-43d7-a672-306c260d53e8'
+  label: 'MIT block'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
